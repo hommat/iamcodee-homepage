@@ -1,0 +1,17 @@
+.button {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 11px 27px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--primary {
+  color: white;
+  background: linear-gradient(to top right, #6362d7, #ab77dc 60%, #ff8fe2);
+}
