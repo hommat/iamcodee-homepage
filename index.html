@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/sections/speciality.css" />
     <link rel="stylesheet" href="./css/sections/products.css" />
     <link rel="stylesheet" href="./css/sections/clients.css" />
+    <link rel="stylesheet" href="./css/sections/contact.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -323,32 +324,68 @@
         </div>
       </section>
 
-      <section>
-        <header>
+      <section class="l-section c-contact">
+        <header class="c-contact__header">
           <h2>Facing Problem?<br /><strong>Lets Get In Touch Now</strong></h2>
         </header>
-        <form>
-          <div>
+        <form class="c-form">
+          <div class="c-form__divider">
             <div>
-              <label for="firstname">First Name</label>
-              <input type="text" name="firstname" placeholder="Robert Lee" />
+              <label class="c-form__label" for="firstname">First Name</label>
+              <input
+                class="c-form__input"
+                type="text"
+                name="firstname"
+                placeholder="Robert Lee"
+              />
             </div>
             <div>
-              <label for="lastname">Last Name</label>
-              <input type="text" name="lastname" placeholder="Anderson" />
+              <label class="c-form__label" for="lastname">Last Name</label>
+              <input
+                class="c-form__input"
+                type="text"
+                name="lastname"
+                placeholder="Anderson"
+              />
             </div>
           </div>
-          <label for="email">Your Email Adress</label>
-          <input type="email" name="email" placeholder="kevin.jones@mail.com" />
-          <label for="problem">Which Related Problem Are You Facing?</label>
-          <input type="name" name="problem" placeholder="Select One" />
-          <label for="message">Type Your Message</label>
+          <label class="c-form__label" for="email">Your Email Adress</label>
           <input
+            class="c-form__input"
+            type="email"
+            name="email"
+            placeholder="kevin.jones@mail.com"
+          />
+          <label class="c-form__label" for="problem"
+            >Which Related Problem Are You Facing?</label
+          >
+          <div class="c-form__select">
+            <input
+              class="c-form__input c-form__input--select"
+              type="name"
+              name="problem"
+              placeholder="Select One"
+            />
+          </div>
+          <label class="c-form__label" for="message">Type Your Message</label>
+          <textarea
+            rows="4"
+            class="c-form__input"
             type="name"
             name="message"
-            placeholder="Lorem Ipsum is simply dummy text of the printing and...……."
+            placeholder="Lorem Ipsum is simply dummy text of the printing and......"
+          ></textarea>
+          <button class="c-button c-button--primary c-form__button">
+            Our Works
+          </button>
+          <img
+            src="./static/img/contact/bottom-right.png"
+            class="c-contact__bottom-right-image"
           />
-          <button>Our Works</button>
+          <img
+            src="./static/img/contact/bottom-left.png"
+            class="c-contact__bottom-left-image"
+          />
         </form>
       </section>
     </main>

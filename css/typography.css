@@ -3,6 +3,11 @@ body {
   color: #555555;
 }
 
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
 h1,
 h2,
 h3,
