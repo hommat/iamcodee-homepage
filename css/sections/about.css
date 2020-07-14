@@ -1,0 +1,30 @@
+.c-about__grid {
+  display: grid;
+  grid-template-columns: 45fr 45fr;
+  gap: 135px;
+
+  margin-bottom: 130px;
+}
+
+.c-about__row {
+  margin-bottom: 130px;
+}
+
+.c-about__heading {
+  margin-bottom: 30px;
+}
+
+.c-about__text {
+  font-size: 15px;
+  color: #555555;
+}
+
+.c-about__image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-about__button {
+  margin-top: 52px;
+}
