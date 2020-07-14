@@ -1,4 +1,9 @@
-.container {
+.u-container {
   max-width: 1270px;
   margin: 0 auto;
+}
+
+.u-image {
+  width: 100%;
+  height: auto;
 }

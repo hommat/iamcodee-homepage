@@ -1,17 +1,24 @@
-.button {
+.c-button {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
+
+  background: white;
+  color: #9d60eb;
+
   padding: 11px 27px;
-  border: 0;
+
+  border: 1px solid #9d60eb;
   border-radius: 5px;
 }
 
-.button:hover {
+.c-button:hover {
   cursor: pointer;
 }
 
-.button--primary {
+.c-button--primary {
+  border: 0;
+
   color: white;
   background: linear-gradient(to top right, #6362d7, #ab77dc 60%, #ff8fe2);
 }
