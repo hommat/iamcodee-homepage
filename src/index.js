@@ -1,0 +1,14 @@
+import "./css/variables.css";
+import "./css/reset.css";
+import "./css/typography.css";
+import "./css/utils.css";
+import "./css/button.css";
+import "./css/arrow.css";
+import "./css/header.css";
+import "./css/sections/welcome.css";
+import "./css/sections/about.css";
+import "./css/sections/speciality.css";
+import "./css/sections/products.css";
+import "./css/sections/clients.css";
+import "./css/sections/contact.css";
+import "./css/footer.css";
