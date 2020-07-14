@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="./css/typography.css" />
     <link rel="stylesheet" href="./css/utils.css" />
     <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/arrow.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/sections/welcome.css" />
     <link rel="stylesheet" href="./css/sections/about.css" />
+    <link rel="stylesheet" href="./css/sections/speciality.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
@@ -20,7 +22,7 @@
   <body>
     <div class="u-container">
       <header class="l-header">
-        <img src="./static/img/logo.png" alt="logo" />
+        <img src="./static/img/shared/logo.png" alt="logo" />
         <nav class="c-nav">
           <ul class="c-nav__list">
             <li class="c-nav__item c-nav__item--selected">
@@ -51,7 +53,7 @@
           />
           <img
             class="c-header__search__image"
-            src="./static/img/search.png"
+            src="./static/img/header/search.png"
             alt="search icon"
           />
         </div>
@@ -81,11 +83,11 @@
               Know More
             </button>
           </div>
-          <img src="./static/img/welcome-people.png" alt="" />
+          <img src="./static/img/welcome/people.png" alt="" />
         </div>
         <img
           class="c-welcome__rect"
-          src="./static/img/welcome-rect.png"
+          src="./static/img/welcome/rect.png"
           alt=""
         />
       </section>
@@ -113,12 +115,12 @@
             </button>
           </div>
           <div class="c-about__image-container">
-            <img src="./static/img/our-work.png" alt="" />
+            <img src="./static/img/about/our-work.png" alt="" />
           </div>
         </div>
         <div class="c-about__grid">
           <div class="c-about__image-container">
-            <img src="static/img/always-help.png" alt="" />
+            <img src="static/img/about/always-help.png" alt="" />
           </div>
           <div>
             <h2 class="c-about__heading">
@@ -140,39 +142,53 @@
         </div>
       </section>
 
-      <section>
-        <header>
+      <section class="l-section c-speciality u-container">
+        <header class="c-speciality__header">
           <h2>What is the<br /><strong>Speciality Of Us</strong></h2>
         </header>
-        <ul>
-          <li>
-            <img src="" alt="" />
-            <h3>Quick <strong>Response</strong></h3>
-            <p>
+        <ul class="c-speciality__list">
+          <li class="c-speciality__item">
+            <img src="./static/img/speciality/response.png" alt="" />
+
+            <h3 class="c-speciality__heading">
+              Quick <strong>Response</strong>
+            </h3>
+            <p class="c-speciality__text">
               Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
               concludaturque ndo. Verear
             </p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h3>Great <strong>Communication</strong></h3>
-            <p>
+          <li class="c-speciality__item">
+            <img src="./static/img/speciality/communication.png" alt="" />
+
+            <h3 class="c-speciality__heading">
+              Great <strong>Communication</strong>
+            </h3>
+            <p class="c-speciality__text">
               Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
               concludaturque ndo. Verear
             </p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h3>Customer <strong>Satisfaction</strong></h3>
-            <p>
+          <li class="c-speciality__item">
+            <img src="./static/img/speciality/satisfaction.png" alt="" />
+
+            <h3 class="c-speciality__heading">
+              Customer <strong>Satisfaction</strong>
+            </h3>
+            <p class="c-speciality__text">
               Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec
               concludaturque ndo. Verear
             </p>
           </li>
         </ul>
         <div>
-          <img src="" alt="arrow left" />
-          <img src="" alt="arrow right" />
+          <div class="c-arrow c-arrow--left c-speciality__arrow-left">
+            <img src="./static/img/shared/arrow-right.png" alt="arrow left" />
+          </div>
+
+          <div class="c-arrow">
+            <img src="./static/img/shared/arrow-right.png" alt="arrow right" />
+          </div>
         </div>
       </section>
 

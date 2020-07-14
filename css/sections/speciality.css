@@ -1,0 +1,36 @@
+.c-speciality {
+  text-align: center;
+
+  margin-bottom: 130px;
+}
+
+.c-speciality__header {
+  margin-bottom: 40px;
+}
+
+.c-speciality__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  margin-bottom: 30px;
+}
+
+.c-speciality__item {
+  padding: 38px;
+
+  box-shadow: 0px 15px 60px 0px rgba(62, 62, 62, 0.16);
+}
+
+.c-speciality__heading {
+  margin: 15px 0;
+}
+
+.c-speciality__text {
+  font-size: 15px;
+  color: #555555;
+}
+
+.c-speciality__arrow-left {
+  margin-right: 30px;
+}
