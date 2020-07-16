@@ -1,13 +1,13 @@
 .u-container {
-  max-width: 1270px;
-  margin: 0 auto;
+    max-width: 1270px;
+    margin: 0 auto;
 }
 
 .u-image {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .u-shadow {
-  box-shadow: 0px 15px 60px 0px rgba(62, 62, 62, 0.14);
+    box-shadow: 0px 15px 60px 0px rgba(62, 62, 62, 0.14);
 }
